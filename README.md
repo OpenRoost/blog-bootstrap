@@ -1,9 +1,9 @@
 DJANGO BLOG - BOOTSTRAP TEMPLATES
 =================================
 
-[![](https://github.com/openroost/blog-bootstrap/actions/workflows/deploy_pages.yml/badge.svg)](https://openroost.github.io/blog-bootstrap)
-![](https://github.com/openroost/blog-bootstrap/actions/workflows/test_webpack_builds.yml/badge.svg)
-![](https://github.com/openroost/blog-bootstrap/actions/workflows/run_selenium.yml/badge.svg)
+[![](https://github.com/openroost/blog-bootstrap/actions/workflows/deploy_pages.yaml/badge.svg)](https://openroost.github.io/blog-bootstrap)
+![](https://github.com/openroost/blog-bootstrap/actions/workflows/test_webpack_builds.yaml/badge.svg)
+![](https://github.com/openroost/blog-bootstrap/actions/workflows/test_selenium.yaml/badge.svg)
 
 This repo contains Bootstrap5 templates for the main training project, and
 itself is a supporting subproject.
