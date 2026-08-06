@@ -29,7 +29,7 @@ class TestDetailView(TestArticlesHelper):
         self.assertIn("flex-row", element.get_attribute("class"))
 
     def test_topics(self):
-        selector = "ul[aria-label=ArticleTopics"
+        selector = "ul[aria-label=ArticleTopics]"
         element = self.browser.find_element(By.CSS_SELECTOR, selector)
         self.assertIn("flex-row", element.get_attribute("class"))
         topics = element.find_elements(By.TAG_NAME, "li")

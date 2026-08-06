@@ -2,7 +2,7 @@ const iter_topics = require("../src/helpers/iter_topics")
 
 describe("Test topics handlebars helper", () => {
     it("single topic supported", () => {
-        expect(iter_topics("Epos fuga")).toEqual["Epos fuga"]
+        expect(iter_topics("Epos fuga")).toEqual(["Epos fuga"])
     })
     it("leading and trailing spaces are trimmed for single topic", () => {
         expect(iter_topics("  Nuptia resisteres  ")).toEqual(["Nuptia resisteres"])
