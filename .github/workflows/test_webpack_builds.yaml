@@ -3,10 +3,10 @@ name: Check project bundle builds
 on:
   pull_request:
     branches:
-      - master
       - main
-      - devel
-      - develop
+  push:
+    branches:
+      - main
 
 jobs:
   development:

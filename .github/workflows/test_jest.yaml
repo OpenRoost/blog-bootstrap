@@ -3,10 +3,10 @@ name: Test custom JavaScript
 on:
   pull_request:
     branches:
-      - master
       - main
-      - devel
-      - develop
+  push:
+    branches:
+      - main
 
 jobs:
   test:
