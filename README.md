@@ -1,9 +1,9 @@
 DJANGO BLOG - BOOTSTRAP TEMPLATES
 =================================
 
-[![](https://github.com/edu-python-course/blog-bootstrap/actions/workflows/deploy_pages.yml/badge.svg)](https://edu-python-course.github.io/blog-bootstrap)
-![](https://github.com/edu-python-course/blog-bootstrap/actions/workflows/test_webpack_builds.yml/badge.svg)
-![](https://github.com/edu-python-course/blog-bootstrap/actions/workflows/run_selenium.yml/badge.svg)
+[![](https://github.com/openroost/blog-bootstrap/actions/workflows/deploy_pages.yml/badge.svg)](https://openroost.github.io/blog-bootstrap)
+![](https://github.com/openroost/blog-bootstrap/actions/workflows/test_webpack_builds.yml/badge.svg)
+![](https://github.com/openroost/blog-bootstrap/actions/workflows/run_selenium.yml/badge.svg)
 
 This repo contains Bootstrap5 templates for the main training project, and
 itself is a supporting subproject.
@@ -13,7 +13,7 @@ Getting started
 
 For those who want to use the templates provided in this repository -
 the shortest way is to check the 
-[release page](https://github.com/edu-python-course/blog-bootstrap/releases).
+[release page](https://github.com/openroost/blog-bootstrap/releases).
 Starting from `ver2.0` each release has a **dist.zip** attached to it.
 There are partials for individual site parts within the archive. These are
 suitable for using with template processors (like Django templates or Jinja2).
